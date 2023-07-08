@@ -10,7 +10,7 @@ CORS(app)
 @app.route('/', methods=['GET'])
 def home_page():
     data_set = {'Page': 'HomePage of YouTube Downloader',
-                'Message': 'Successfully loaded the HomePage'}
+                'Message': 'Successfully loaded the HomePage🎉'}
     json_dump = json.dumps(data_set)
     return json_dump
 # **************************************************HomePage End*************************************************
